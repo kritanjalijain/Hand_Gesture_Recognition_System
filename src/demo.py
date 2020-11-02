@@ -46,8 +46,8 @@ ACTIONS_GESTURE_ENCODING = {'fist': 'Play/Unpause', 'five': 'Pause', 'none': 'Do
 # Data Collection Mode variables
 DATAMODE = False 
 WHERE = "train"
-GESTURE = "okay"
-NUMBERTOCAPTURE = 100
+GESTURE = "okay" # Collects data for 'okay' gesture
+NUMBERTOCAPTURE = 100 # Captures 100 images
 
 # Testing Predictions of Model Mode variables
 PREDICT = False
@@ -100,10 +100,6 @@ class MusicMan(object):
             self.state = "stop"
 
 
-
-'''
-USEFUL FUNCTIONS
-'''
 # Creating a path for storing data
 def create_path(WHERE, GESTURE):
     print("Creating path to store data for collection...")
