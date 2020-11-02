@@ -399,7 +399,7 @@ if __name__ == '__main__':
                 cv2.putText(new_frame, f"for gesture {GESTURE}", (980,425), FONT, 0.6, (0,0,0), 2, cv2.LINE_AA)
 
             # Show the frame
-            cv2.imshow('Gesture Jester', new_frame)
+            cv2.imshow('Gesture Recogniton', new_frame)
 
             key = cv2.waitKey(5)
 
