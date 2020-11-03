@@ -14,6 +14,15 @@ The app consists of 3 different modes:
 * Use thresholding to create a binary
 * Capture data
 
+### Gestures Used:
+- Rad: Loads Song
+- Fist: Plays/Un-pause Song
+- Five: Pause Song
+- Okay: Increase Volume
+- Peace: Decrease Volume
+- Straight: Stop Song
+- None: Do Nothing 
+
 ## Packages Used
 - OpenCV 
 - Keras
