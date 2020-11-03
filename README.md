@@ -8,6 +8,12 @@ The app consists of 3 different modes:
 2. __**Model Testing Mode:**__ Test the model's ability to discern between different gestures through real-time visualizations
 3. __**Music-Player/Gesture Mode:**__ Use gestures to play music, pause music, and change the volume of music
 
+Created a Region of Interest (ROI)
+Capture the background
+Create a background mask
+Use thresholding to create a binary
+Capture data
+
 ## Packages Used
 - OpenCV 
 - Keras
