@@ -8,13 +8,20 @@ The app consists of 3 different modes:
 2. __**Model Testing Mode:**__ Test the model's ability to discern between different gestures through real-time visualizations
 3. __**Music-Player/Gesture Mode:**__ Use gestures to play music, pause music, and change the volume of music
 
-OpenCV
-
+#### OpenCV-
 * Created a Region of Interest (ROI)
 * Capture the background
 * Create a background mask
 * Use thresholding to create a binary
 * Capture data
+
+##### Trained, Validated and Tested Model using Keras on Kaggle’s Cloud Platform-
+* Convert Images to NumPy Arrays
+* Designed a CNN Network Using Keras
+* Trained Model on Kaggle Cloud Platform
+* Evaluated on 500 validation images and 500 test images
+* Test Accuracy: 99.8%
+
 
 ### Gestures Used:
 - Rad: Loads Song
