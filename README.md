@@ -24,13 +24,13 @@ The app consists of 3 different modes:
 
 
 ### Gestures Used:
-- Rad: Loads Song
-- Fist: Plays/Un-pause Song
-- Five: Pause Song
-- Okay: Increase Volume
-- Peace: Decrease Volume
-- Straight: Stop Song
-- None: Do Nothing 
+1. Rad: Loads Song
+1. Fist: Plays/Un-pause Song
+1. Five: Pause Song
+1. Okay: Increase Volume
+1. Peace: Decrease Volume
+1. Straight: Stop Song
+1. None: Do Nothing 
 
 ## Packages Used
 - OpenCV 
