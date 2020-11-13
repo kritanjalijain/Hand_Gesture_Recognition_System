@@ -30,6 +30,7 @@ The app consists of 3 different modes:
 1. Okay: Increase Volume
 1. Peace: Decrease Volume
 1. Straight: Stop Song
+1. Thumbs: Next Song
 1. None: Do Nothing 
 
 ## Packages Used
