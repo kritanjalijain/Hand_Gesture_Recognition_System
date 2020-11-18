@@ -1,5 +1,5 @@
 # Hand Gesture Recognition System
-College Project- A dynamic hand gesture recognition system for controlling music player. This model recognizes hand gestures in real-time using the power of Convolutional Neural Networks.
+College Project- A dynamic hand gesture recognition system for controlling music player. This model recognizes hand gestures in real-time using Convolutional Neural Networks.
 
 ## Project Description
 
@@ -30,7 +30,7 @@ The app consists of 3 different modes:
 1. Okay: Increase Volume
 1. Peace: Decrease Volume
 1. Straight: Stop Song
-1. Thumbs: Next Song
+1. Thumbs: 
 1. None: Do Nothing 
 
 ## Packages Used
