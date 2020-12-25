@@ -43,6 +43,6 @@ The app consists of 3 different modes:
 ## Files
 Here's a list of files in the directory:
 - `src/demo.py`: Contains all the functions to start and run the app
-- `src/music`: Contains the song that will be played during 'gesture mode'
+- `src/music`: Contains the song that will be played during gesture mode
 
 
