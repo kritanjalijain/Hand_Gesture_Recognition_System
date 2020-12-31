@@ -58,6 +58,18 @@ The next step was to create a music application using python’s pygame library 
 ![](images_and_gifs/thumbs.png)
 ###### Figure 8- Thumbs: NA
 
+### Evaluation Metrics of the Model-
+
+The model had a Test Accuracy of 0.99875 and a Test Loss of 0.0051577082125004308.
+Furthermore, the following plot of the training vs validation learning curves accuracy and loss show that the curves are a good fit since the plot of training loss decreases to a point of stability. In addition, the plot of validation loss decreases to a point of stability and has a small gap with the training loss.
+
+![](images_and_gifs/metrics_1.png)
+###### Figure- Plot of training and validation learning curves accuracy
+
+![](images_and_gifs/metrics_2.png)
+###### Figure- Plot of training and validation learning curves loss
+
+
 ### Packages Used
 - OpenCV 
 - Keras
