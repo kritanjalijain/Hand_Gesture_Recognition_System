@@ -52,14 +52,16 @@ Here's a list of files in the directory:
 
 ### How to run?
 To run the application :
-1. Clone repository using `git clone `
+1. Clone repository using `git clone`
 2. `cd` to project directory 
 3. Set-up a virtual environment and activate it
 4. Install all dependencies using the command `pip install -r requirements.txt`
 5. `cd` to the src folder
 6. Run the python script using `python demo.py` command
 
-
+### Where to find help?
+* For setting up the virtual environment refer the [official documentation](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) 
+* If not all the dependencies get installed using  `pip install -r requirements.txt`, go to the official website and documentation for installing them manually
 
 
 
