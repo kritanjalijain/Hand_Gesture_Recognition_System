@@ -45,7 +45,7 @@ The next step was to create a music application using python’s pygame library 
 - PyGame
 - NumPy
 
-### Project Structure
+## Project Structure
 Here's a list of files in the directory:
 - `src/demo.py`: Contains all the functions to start and run the app
 - `src/music`: Contains the song that will be played during gesture mode
