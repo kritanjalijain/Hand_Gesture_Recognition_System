@@ -65,7 +65,7 @@ class MusicMan(object):
         pygame.mixer.init()
         self.player = pygame.mixer.music
         self.song = file
-        self.file = f"./music/{file}.mp3"
+        self.file = f"The_Beatles_I_Saw_Her_Standing_There.mp3"
         self.state = None
     
     def load(self):
@@ -145,7 +145,7 @@ def load_model(outputSize, weight_url):
 # Function that counts the number of times the last element is repeated (starting at the end of the array) 
 # without any gap. Returns the count and the percentage (count/length of array) 
 # For example [1, 1, 1, 2] would return 1, 0.25 while [1,1,2,2] would return 2, 0.5
-# [1,1,1,1] would return 4, 1
+# [1,1,1,1] would return 1, 1
 def find_last_rep(array):
     last_element = array[-1]
     count = 0
@@ -212,7 +212,7 @@ def drawSideFrame(historic_predictions, frame, modelName, label):
         cv2.rectangle(score_frame , tuple(chart_start), tuple(chart_end), color, cv2.FILLED)
         
         # Adding text
-        cv2.putText(score_frame, 'Press G to turn of gesture mode', (20,25), FONT, 0.55, (0, 0, 0), 2, cv2.LINE_AA)
+        cv2.putText(score_frame, 'Press G to turn off gesture mode', (20,25), FONT, 0.55, (0, 0, 0), 2, cv2.LINE_AA)
         cv2.putText(score_frame, f'Model : {modelName}', (20,50), FONT, 0.55, (0, 0, 0), 2, cv2.LINE_AA)
         cv2.putText(score_frame, f'Data source : {dataText}', (20, 75), FONT, 0.55, (0, 0, 0), 2, cv2.LINE_AA)
         cv2.putText(score_frame, f'Song : {music.song}', (20, 100), FONT, 0.55, (0, 0, 0), 2, cv2.LINE_AA)
