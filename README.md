@@ -22,11 +22,14 @@ The next step was to implement the needed algorithms i.e. OpenCv bg subtraction 
 * Capture data
 
 ### Trained, Validated and Tested Model using Keras on Kaggle’s Cloud Platform-
+The next step was to train and test the model to process the images and to recognize the gestures, using Python and TensorFlow following the procedure:
 * Convert Images to NumPy Arrays
 * Designed a CNN Network Using Keras
 * Trained Model on Kaggle Cloud Platform
 * Evaluated on 500 validation images and 500 test images
-* Test Accuracy: 99.8%
+
+![](images_and_gifs/CNN_Architecture.png)
+###### Figure - Rad: Different layers in CNN architecture
 
 ### Create a PyGame Music Application and Triggered Commands Using Gestures
 The next step was to create a music application using python’s pygame library to apply the model and defined functions for each of the gesture bindings created. The gestures used are as follows:
