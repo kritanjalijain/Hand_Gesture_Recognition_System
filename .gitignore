@@ -1,2 +1,11 @@
 # Ignore files related to venv
 env/
+
+#Ignore files related to data collection mode
+data/
+
+#Ignore audio files
+src/The_Beatles_I_Saw_Her_Standing_There.mp3
+
+#Ignore files related to raw data images
+src/data/
