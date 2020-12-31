@@ -52,6 +52,9 @@ The next step was to create a music application using python’s pygame library 
 ![](images_and_gifs/none.png)
 ###### Figure 7- None: Do Nothing
 
+![](images_and_gifs/thumbs.png)
+###### Figure 8- Thumbs: NA
+
 ### Packages Used
 - OpenCV 
 - Keras
