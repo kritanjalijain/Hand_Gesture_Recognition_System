@@ -1,2 +1,2 @@
 # Ignore files related to venv
-.env
+env/
