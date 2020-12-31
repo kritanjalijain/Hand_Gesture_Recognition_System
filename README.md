@@ -61,6 +61,9 @@ The next step was to create a music application using python’s pygame library 
 ### Evaluation Metrics of the Model-
 
 The model had a Test Accuracy of 0.99875 and a Test Loss of 0.0051577082125004308.
+![](images_and_gifs/kaggle_snippet.png)
+###### Figure- Test accuracy and test loss calculations and saving the weights and model
+
 Furthermore, the following plot of the training vs validation learning curves accuracy and loss show that the curves are a good fit since the plot of training loss decreases to a point of stability. In addition, the plot of validation loss decreases to a point of stability and has a small gap with the training loss.
 
 ![](images_and_gifs/metrics_1.png)
