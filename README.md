@@ -22,11 +22,14 @@ The next step was to implement the needed algorithms i.e. OpenCv bg subtraction 
 * Capture data
 
 ### Trained, Validated and Tested Model using Keras on Kaggle’s Cloud Platform-
+The next step was to train and test the model to process the images and to recognize the gestures, using Python and TensorFlow following the procedure:
 * Convert Images to NumPy Arrays
 * Designed a CNN Network Using Keras
 * Trained Model on Kaggle Cloud Platform
 * Evaluated on 500 validation images and 500 test images
-* Test Accuracy: 99.8%
+
+![](images_and_gifs/CNN_Architecture.png)
+###### Figure - Rad: Different layers in CNN architecture
 
 ### Create a PyGame Music Application and Triggered Commands Using Gestures
 The next step was to create a music application using python’s pygame library to apply the model and defined functions for each of the gesture bindings created. The gestures used are as follows:
@@ -54,6 +57,18 @@ The next step was to create a music application using python’s pygame library 
 
 ![](images_and_gifs/thumbs.png)
 ###### Figure 8- Thumbs: NA
+
+### Evaluation Metrics of the Model-
+
+The model had a Test Accuracy of 0.99875 and a Test Loss of 0.0051577082125004308.
+Furthermore, the following plot of the training vs validation learning curves accuracy and loss show that the curves are a good fit since the plot of training loss decreases to a point of stability. In addition, the plot of validation loss decreases to a point of stability and has a small gap with the training loss.
+
+![](images_and_gifs/metrics_1.png)
+###### Figure- Plot of training and validation learning curves accuracy
+
+![](images_and_gifs/metrics_2.png)
+###### Figure- Plot of training and validation learning curves loss
+
 
 ### Packages Used
 - OpenCV 
