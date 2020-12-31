@@ -30,13 +30,13 @@ The next step was to implement the needed algorithms i.e. OpenCv bg subtraction 
 
 ### Create a PyGame Music Application and Triggered Commands Using Gestures
 The next step was to create a music application using python’s pygame library to apply the model and defined functions for each of the gesture bindings created. The gestures used are as follows:
-• Rad: Loads Song
-• Fist: Plays/Un-pause Song
-• Five: Pause Song
-• Okay: Increase Volume
-• Peace: Decrease Volume
-• Straight: Stop Song and Rewind Song upon playing
-• None: Do Nothing
+* Rad: Loads Song
+* Fist: Plays/Un-pause Song
+* Five: Pause Song
+* Okay: Increase Volume
+* Peace: Decrease Volume
+* Straight: Stop Song and Rewind Song upon playing
+* None: Do Nothing
 
 ### Packages Used
 - OpenCV 
