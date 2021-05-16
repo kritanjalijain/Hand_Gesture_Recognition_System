@@ -72,6 +72,9 @@ Furthermore, the following plot of the training vs validation learning curves ac
 ![](images_and_gifs/metrics_2.png)
 ###### Figure- Plot of training and validation learning curves loss
 
+### Link to Kaggle Notebook
+[Hand Gesture Recognition CNN](https://www.kaggle.com/kritanjalijain/hand-gesture-recognition-cnn) script walks you through the process from Exploratory Data Analysis, Data Augmentation to Building, Training and Evaluating the model.
+
 
 ### Packages Used
 - OpenCV 
